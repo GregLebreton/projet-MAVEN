@@ -12,7 +12,7 @@ public class GregtestApplicationTests {
 
 	@Test
 	public void contextLoads() {
-	assertThat("hello greg!").isEqualTo("hello gregan?!");
+	assertThat("hello greg!").isEqualTo("hello greg!");
 	
 	}
 }
