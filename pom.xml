@@ -39,5 +39,17 @@
 			</plugin>
 		</plugins>
 	</build>
+<distributionManagement>
 
+    <snapshotRepository>
+
+      <id>maven-snapshots</id>
+
+      	<name>Snapshot</name>
+
+      <url>http://localhost:8081/repositery/maven-snapshots/</url>
+
+    </snapshotRepository>
+
+</distributionManagement>
 </project>
