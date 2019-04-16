@@ -47,7 +47,7 @@
 
       	<name>Snapshot</name>
 
-      <url>http://localhost:8081/repositery/maven-snapshots/</url>
+      <url>http://localhost:8081/repository/maven-snapshots/</url>
 
     </snapshotRepository>
 
