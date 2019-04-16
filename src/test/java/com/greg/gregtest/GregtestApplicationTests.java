@@ -11,6 +11,7 @@ public class GregtestApplicationTests {
 
 	@Test
 	public void contextLoads() {
+	assertThat("hello greg!").isEqualTo("hello gregan?!");
+	
 	}
-
 }
