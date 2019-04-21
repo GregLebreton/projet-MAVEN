@@ -46,7 +46,18 @@
       		<name>Snapshot</name>
       		<url>http://192.168.0.18:8081/repository/maven-snapshots/</url>
     	</snapshotRepository>
+    	<repository>
+      		<id>maven-releases</id>
+      		<name>Snapshot</name>
+      		<url>http://192.168.0.18:8081/repository/maven-releases/</url>
+    	</repository>
 	</distributionManagement>
+
+<scm>
+   <connection>scm:git:https://github.com/GregLebreton/projet-MAVEN.git</connection>
+   <url>http://github.com/GregLebreton/projet-MAVEN.git</url>
+   <developerConnection>scm:git:ttps://github.com/GregLebreton/projet-MAVEN.git</developerConnection>
+</scm>
 
 <reporting>
     <plugins>
