@@ -38,6 +38,16 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<plugin>
+   			<groupId>org.apache.maven.plugins</groupId>
+   				<artifactId>maven-release-plugin</artifactId>
+   				<version>2.4.2</version>
+   			<configuration>
+      			<tagNameFormat>v@{project.version}</tagNameFormat>
+      			<autoVersionSubmodules>true</autoVersionSubmodules>
+      			<releaseProfiles>releases</releaseProfiles>
+   			</configuration>
+		</plugin>
 	</build>
 
 	<distributionManagement>
