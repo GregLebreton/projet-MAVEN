@@ -64,9 +64,9 @@
 	</distributionManagement>
 
 <scm>
-   <connection>scm:git:http://github.com/GregLebreton/projet-MAVEN.git</connection>
-   <url>http://github.com/GregLebreton/projet-MAVEN.git</url>
-   <developerConnection>scm:git:https://github.com/GregLebreton/projet-MAVEN.git</developerConnection>
+   <connection>scm:git:git@github.com:GregLebreton/projet-MAVEN.git</connection>
+   <url>scm:git:git@github.com/GregLebreton:projet-MAVEN.git</url>
+   <developerConnection>scm:git:git@github.com:GregLebreton/projet-MAVEN.git</developerConnection>
 </scm>
 
 <reporting>
